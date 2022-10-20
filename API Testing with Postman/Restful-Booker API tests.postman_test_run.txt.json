@@ -1,0 +1,1166 @@
+{
+	"id": "bbbaa91c-d76a-46d0-a25c-136b839b65f2",
+	"name": "Restful-Booker API tests",
+	"timestamp": "2022-10-20T20:15:14.101Z",
+	"collection_id": "23567044-244466fd-eb4d-4f22-a3ed-47001ac80aca",
+	"folder_id": 0,
+	"environment_id": "23567044-11984c05-59d4-4ca1-800a-40ce6ea8e264",
+	"totalPass": 102,
+	"totalFail": 7,
+	"results": [
+		{
+			"id": "1135416d-2212-49bd-beeb-e6c35ea5a303",
+			"name": "Create Token",
+			"url": "https://restful-booker.herokuapp.com/auth",
+			"time": 716,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				716
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ad92715d-a988-4cdc-9df5-66063a06baa0",
+			"name": "Booking - GetBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/3941",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Response is a JSON": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Response is a JSON": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "e6e85571-d5f2-4eee-9181-855631bbb6c2",
+			"name": "Booking- GetBookingIds",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 684,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Response body is a JSON": true,
+				"JSON value is a number": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON value is a number": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				684
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Response body is a JSON": true,
+					"JSON value is a number": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "91504a78-894a-473a-8809-8d8ea9f14b54",
+			"name": "Booking - CreateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 241,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Response body is a JSON": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				241
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Response body is a JSON": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "c0181259-c351-467a-ab3d-f4ea57a38690",
+			"name": "Booking - UpdateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/3985",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Response is a JSON": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true,
+				"Check if lastname is Brown": true,
+				"Body is correct": false,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if lastname is Brown": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Response is a JSON": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true,
+					"Check if lastname is Brown": true,
+					"Body is correct": false,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "44d19d3a-273d-4e24-82a2-8e4b33ceacc8",
+			"name": "Booking - PartialUpdateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/3985",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Response is a JSON": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true,
+				"Check if lastname is McDrive": true,
+				"Body is correct": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if lastname is McDrive": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Response is a JSON": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true,
+					"Check if lastname is McDrive": true,
+					"Body is correct": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "acd8ddcc-19c3-4cc4-92f7-d3747c216fa4",
+			"name": "Booking - DeleteBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/3985",
+			"time": 243,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Body message is `Created`": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body message is `Created`": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				243
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Body message is `Created`": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "a10125f3-17df-42fc-9a7a-2f84c1e22e93",
+			"name": "Ping - HealthCheck",
+			"url": "https://restful-booker.herokuapp.com/ping",
+			"time": 235,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				235
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0a86f740-f5ea-4c61-8970-755a17098307",
+			"name": "Create Auth Token with Invalid Credentials",
+			"url": "https://restful-booker.herokuapp.com/auth",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				234
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5df15dda-9ec9-40ea-9d03-6de12a52f716",
+			"name": "Create booking with missing parameters",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 231,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Body message is `Bad Request`": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body message is `Bad Request`": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Body message is `Bad Request`": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "9b95901a-333e-4bf9-a037-53b5ceb4bb88",
+			"name": "Create booking with invalid parameters - wrong firstname",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 233,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Body message is `Internal Server Error`": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body message is `Internal Server Error`": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				233
+			],
+			"allTests": [
+				{
+					"Status code is 500": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Body message is `Internal Server Error`": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "f1baef93-e232-4f9c-a5ea-6e612935a319",
+			"name": "Create booking with invalid parameters - wrong totalprice",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 236,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Response is a JSON": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				236
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Response is a JSON": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "979a5dfc-60bd-4a66-8c26-d28a9baec6f5",
+			"name": "Create Booking without any parameters",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 233,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Body message is `Internal Server Error`": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body message is `Internal Server Error`": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				233
+			],
+			"allTests": [
+				{
+					"Status code is 500": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Body message is `Internal Server Error`": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "f29b9f3c-5d00-48a5-a226-37175f053de7",
+			"name": "Create booking with invalid parameters - wrong depositpaid",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Response is a JSON": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": true,
+				"Check if depositpaid is true": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if depositpaid is true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				234
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Response is a JSON": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": true,
+					"Check if depositpaid is true": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "504376f8-a8cf-4978-b63f-7e1d66589be4",
+			"name": "Create booking with invalid parameters - Wrong bookingdates",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 227,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Body message is `Invalid date`": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body message is `Invalid date`": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				227
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Body message is `Invalid date`": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "a283c7e8-842d-4cd2-bc6e-c0b0d97af238",
+			"name": "Create booking with invalid model",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 234,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Body message is `Internal Server Error`": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body message is `Internal Server Error`": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				234
+			],
+			"allTests": [
+				{
+					"Status code is 500": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Body message is `Internal Server Error`": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "8dd32660-16f6-4e4e-8294-8ff8d4335473",
+			"name": "Get booking with invalid parameters - invalid Id",
+			"url": "https://restful-booker.herokuapp.com/booking/3987",
+			"time": 237,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Response is a JSON": true,
+				"Response schema is correct": true,
+				"JSON values are correct types": false,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON values are correct types": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				237
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Response is a JSON": true,
+					"Response schema is correct": true,
+					"JSON values are correct types": false,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "939b3c27-9020-43a9-8b70-153719d31894",
+			"name": "Get booking with invalid parameters - wrong depositpaid",
+			"url": "https://restful-booker.herokuapp.com/booking/?depositpaid=hello",
+			"time": 457,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Response is a JSON": true,
+				"Response schema is correct": false,
+				"JSON values are correct types": false,
+				"Check if depositpaid is true": false,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema is correct": {
+					"pass": 0,
+					"fail": 1
+				},
+				"JSON values are correct types": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check if depositpaid is true": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				457
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Response is a JSON": true,
+					"Response schema is correct": false,
+					"JSON values are correct types": false,
+					"Check if depositpaid is true": false,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "1a70008d-838a-4acf-865e-f765c716225f",
+			"name": "Update booking with invalid booking id",
+			"url": "https://restful-booker.herokuapp.com/booking/3987",
+			"time": 229,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Body message is `Forbidden`": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body message is `Forbidden`": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				229
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Body message is `Forbidden`": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "dbb5fb08-5eff-41bc-8923-b156b7330dfe",
+			"name": "Delete booking that doesn’t exist",
+			"url": "https://restful-booker.herokuapp.com/3987",
+			"time": 228,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 405": false,
+				"Header Server is Cowboy": true,
+				"Header Content-Type is present": true,
+				"Body message is `Method Not Allowed`": false,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 405": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Header Server is Cowboy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body message is `Method Not Allowed`": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				228
+			],
+			"allTests": [
+				{
+					"Status code is 405": false,
+					"Header Server is Cowboy": true,
+					"Header Content-Type is present": true,
+					"Body message is `Method Not Allowed`": false,
+					"Response time is less than 1000ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5852,
+	"collection": {
+		"requests": [
+			{
+				"id": "1135416d-2212-49bd-beeb-e6c35ea5a303",
+				"method": "POST"
+			},
+			{
+				"id": "ad92715d-a988-4cdc-9df5-66063a06baa0",
+				"method": "GET"
+			},
+			{
+				"id": "e6e85571-d5f2-4eee-9181-855631bbb6c2",
+				"method": "GET"
+			},
+			{
+				"id": "91504a78-894a-473a-8809-8d8ea9f14b54",
+				"method": "POST"
+			},
+			{
+				"id": "c0181259-c351-467a-ab3d-f4ea57a38690",
+				"method": "PUT"
+			},
+			{
+				"id": "44d19d3a-273d-4e24-82a2-8e4b33ceacc8",
+				"method": "PATCH"
+			},
+			{
+				"id": "acd8ddcc-19c3-4cc4-92f7-d3747c216fa4",
+				"method": "DELETE"
+			},
+			{
+				"id": "a10125f3-17df-42fc-9a7a-2f84c1e22e93",
+				"method": "GET"
+			},
+			{
+				"id": "0a86f740-f5ea-4c61-8970-755a17098307",
+				"method": "POST"
+			},
+			{
+				"id": "5df15dda-9ec9-40ea-9d03-6de12a52f716",
+				"method": "POST"
+			},
+			{
+				"id": "9b95901a-333e-4bf9-a037-53b5ceb4bb88",
+				"method": "POST"
+			},
+			{
+				"id": "f1baef93-e232-4f9c-a5ea-6e612935a319",
+				"method": "POST"
+			},
+			{
+				"id": "979a5dfc-60bd-4a66-8c26-d28a9baec6f5",
+				"method": "POST"
+			},
+			{
+				"id": "f29b9f3c-5d00-48a5-a226-37175f053de7",
+				"method": "POST"
+			},
+			{
+				"id": "504376f8-a8cf-4978-b63f-7e1d66589be4",
+				"method": "POST"
+			},
+			{
+				"id": "a283c7e8-842d-4cd2-bc6e-c0b0d97af238",
+				"method": "POST"
+			},
+			{
+				"id": "8dd32660-16f6-4e4e-8294-8ff8d4335473",
+				"method": "GET"
+			},
+			{
+				"id": "939b3c27-9020-43a9-8b70-153719d31894",
+				"method": "GET"
+			},
+			{
+				"id": "1a70008d-838a-4acf-865e-f765c716225f",
+				"method": "PUT"
+			},
+			{
+				"id": "dbb5fb08-5eff-41bc-8923-b156b7330dfe",
+				"method": "DELETE"
+			}
+		]
+	}
+}
